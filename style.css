@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-image: url("./images/background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container{
+    margin-top:250px;
+    margin-bottom:250px;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h3{
+    letter-spacing:10px;
+    margin-bottom:20px;
+    font-size: 15px;
+}
+.clock{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.8rem;
+    position:relative;
+}
+.elem{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.time{
+    width:90px;
+    height:80px;
+    margin-bottom:0;
+    background-color: rgba(0, 0, 102,0.6);
+}
+.time>p{
+    font-size:50px;
+    font-weight:400;
+/*     margin-top:10px;
+    margin-bottom:10px; */
+    padding:10px;
+    opacity:0.9;
+}
+.define{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:90px;
+    height:27px;
+    text-align: center;
+    background-color: rgba(102, 194, 255,0.6);
+}
+.define>p{
+    font-size: 11px;
+    /* margin-top:7px;
+    margin-bottom:7px; */
+    padding:7px;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+.day{
+    width:45px;
+    height:27px;
+    background-color: rgba(0, 128, 0,0.6);
+    position:absolute;
+    top:75%;
+    left:100%;
+    margin-left:0.8rem;
+}
+.day>p{
+    text-align: center;
+    padding-top:5px ;
+
+}
